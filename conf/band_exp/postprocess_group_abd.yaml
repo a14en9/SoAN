@@ -13,7 +13,7 @@ process_funs:
     value: 0
   extract_channel:
     mask_channels: [0]
-    img_channels: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    img_channels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 15, 16]
   add_bg_channel: {}
 slice:
   overlap: 6
