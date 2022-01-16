@@ -1,0 +1,20 @@
+filter_channel: [0]
+filter_percentage: [0.005]
+split_method:
+  random_split:
+    split_ratio: [1.0,0.,0.]
+normalization_sample_size: 641   # int(training ratio * len(dataset)) = int(0.8*(641-1))--------------------------> 448 for (7:1:2)
+process_funs:
+  impute:
+    value: 0
+  normalize:
+    stats_path: "../patches/stats/stats_all.json"
+  impute:
+    value: 0
+  extract_channel:
+    mask_channels: [0]
+    img_channels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+  add_bg_channel: {}
+slice:
+  overlap: 6
+  size: [256, 256]
