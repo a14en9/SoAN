@@ -1,7 +1,7 @@
 # SoAN
 A Second-order Attention Network for Glacial Lake Segmentation from Remotely Sensed Imagery, ISPRS Journal of Photogrammetry and Remote Sensing 2022. 
 
-[[PDF]](https://reader.elsevier.com/reader/sd/pii/S0924271622001460?token=E29F48DFF46794ED201F028D0458333A8C8C96C6CCEE08560A15E1D554141EDB5F14611F554F9965C2F955AA13C6B579&originRegion=eu-west-1&originCreation=20220802152705)
+[[Paper Link]](https://www.sciencedirect.com/science/article/pii/S0924271622001460)
 
 ## About
 This repo is about exploring methods to automatically segment remote sensing images using deep learning, with a focus on the segmentation of glacial lakes in the Hindu Kush Himalayas (HKH). 
