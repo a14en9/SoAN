@@ -6,6 +6,11 @@ A Second-order Attention Network for Glacial Lake Segmentation from Remotely Sen
 ## About
 This repo is about exploring methods to automatically segment remote sensing images using deep learning, with a focus on the segmentation of glacial lakes in the Hindu Kush Himalayas (HKH). 
 
+## Utilisation
+- [x] Code Release
+- [ ] Pretrained models  
+- [ ] Roadmap
+
 ## Citiation
 
 Please kindly cite the paper if you think this is useful:
